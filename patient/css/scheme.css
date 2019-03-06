@@ -1,0 +1,770 @@
+html,body{
+  font-family: 'PingFangSC'
+}
+input::-webkit-input-placeholder {
+  font-family: 'PingFangSC' !important; /* WebKit browsers */
+}
+input:-moz-placeholder {
+　font-family: 'PingFangSC' !important; / Mozilla Firefox 4 to 18 /
+}
+input::-moz-placeholder {
+　font-family: 'PingFangSC' !important; / Mozilla Firefox 19+ /
+}
+input:-ms-input-placeholder {
+　font-family: 'PingFangSC' !important; / Internet Explorer 10+ */
+}
+h3,p{
+  line-height: 1;
+}
+.content{
+  height:auto;
+  width:100%;
+  font-family: "PingFangSC";
+  margin:.90rem 0 0;
+}
+/*免费方案*/
+.free{
+  height: 1.36rem;
+  width:7.10rem;
+  margin:0 auto .19rem;
+  padding:.36rem 0 .39rem;
+  border-radius:.06rem;
+  background: #91c5f5;
+  text-align: center;
+  box-sizing: border-box;
+}
+.free p{
+  margin:0 0 .10rem;
+  font-size: .28rem;
+  color:white;
+}
+.free span{
+  font-size: .23rem;
+  color:#deefff;
+}
+/*方案内tab*/
+.tab{
+  width:100%;
+  padding:0 .28rem 0 .26rem;
+  background: white;
+  border-top:1px solid #f1f1f1;
+  box-sizing:border-box;
+}
+.tab .infor{
+  height: .83rem;
+  line-height: .83rem;
+  border-bottom:1px solid #e5e5e5;
+}
+.infor h3{
+  float: left;
+  font-size:.28rem;
+  color:#1b1a20;
+  line-height: .83rem;
+}
+.infor input,.infor p{
+  height: 100%;
+  float: right;
+  font-size: .26rem;
+  color:#8d8d8d;
+  line-height: .83rem;
+}
+input{
+  height:auto;
+  border:none;
+  outline:none;
+  text-align:right;
+  color:#8d8d8d;
+}
+.tab .name{
+  width:.8rem;
+}
+.tab .sex{
+  width:.4rem;
+   margin:0 .28rem 0;
+}
+.tab .age{
+  width:.8rem;
+}
+.tab .data{
+  width:1.58rem;
+}
+.tab .nowtime{
+  width:.75rem;
+  margin-left:.20rem;
+}
+.infor .name{
+  font-weight:normal;
+}
+.infor .sex{
+  margin:0 .28rem 0;
+}
+.infor i{
+  font-family: 'iconfont';
+  margin-left:.20rem;
+  color:#c6c6c6;
+  font-size: .26rem;
+}
+.tab .name-last{
+  border-bottom:none;
+}
+.tab .name-last span{
+  margin-right: 0;
+}
+/*复诊单内tab*/
+.tab1{
+  height: 1.96rem;
+  width:100%;
+  padding:0 .28rem 0 .26rem;
+  background: white;
+  border-top:1px solid #f1f1f1;
+  box-sizing:border-box;
+}
+.tab1 .infor{
+  height: .96rem;
+  line-height: .96rem;
+  border-bottom:1px solid #e5e5e5;
+}
+.tab1 .time{
+  height: .99rem;
+  line-height: .99rem;
+}
+.tab1 .time .nowtime{
+  margin-right:0;
+}
+.tab1 div h3{
+  float: left;
+  font-size:.29rem;
+  color:#1b1b1f;
+  line-height: .96rem;
+}
+.tab1 div p{
+  height: 100%;
+  float: right;
+  font-size: .26rem;
+  color:#8d8d8d;
+  line-height: .96rem;
+}
+input{
+  height:auto;
+  border:none;
+  outline:none;
+  text-align:right;
+  color:#8d8d8d;
+}
+.tab1 .name{
+  width:.8rem;
+}
+.tab1 .sex{
+  width:.4rem;
+  margin:0 .28rem 0;
+}
+.tab1 .age{
+  width:.8rem;
+}
+.tab1 .data{
+  width:1.58rem;
+}
+.tab1 .nowtime{
+  width:.75rem;
+  margin-left:.20rem;
+}
+.tab1 div p i{
+  float: right;
+  font-family: 'iconfont';
+  margin-left:.20rem;
+  color:#c6c6c6;
+  font-size: .26rem;
+}
+
+
+
+
+.recipe{
+  width: 100%;
+  margin:.19rem 0 0;
+  padding:0 .28rem 0 .26rem;
+  border-top:1px solid #f8f8f8;
+  background: white;
+  box-sizing: border-box;
+}
+.recipe .title{
+  height: .81rem;
+  width:100%;
+}
+.recipe .title h4{
+  line-height: .81rem;
+  float: left;
+}
+.recipe .title h4 i,.recipe .title p i,.tell i{
+  display: inline-block;
+  height:.28rem;
+  width:.32rem;
+  background:url(../img/hz-icon.png) no-repeat;
+  background-position: -0.80rem -1.46rem;
+  background-size:6rem 3.81rem;
+  margin-right: .11rem;
+  margin-bottom:-0.03rem;
+}
+.recipe .title h4 span{
+  font-size: .28rem;
+  color:#1b1a20;
+}
+.recipe .title p{
+  float: right;
+  line-height: .81rem;
+}
+.recipe .title p i{
+  height:.26rem;
+  width:.26rem;
+  background-position: -0.80rem -1.85rem;
+}
+.recipe .title p span{
+  font-size: .24rem;
+  color:#579de3;
+}
+.recipe .fang{
+  height:3.28rem;
+  width:100%;
+  background: #eff8ff;
+}
+.recipe .fang li{
+  float: left;
+  height: calc( 100% / 3);
+  width:50%;
+  padding:.42rem 0 0;
+  font-size: .25rem;
+  color:#383838;
+  box-sizing: border-box;
+}
+.recipe .fang li span{
+  margin:0 .32rem 0 .44rem;
+}
+.recipe .fang .active{
+  color:#569ee3;
+}
+.recipe .fang .active p{
+  margin:0 0 0 .44rem;
+}
+.recipe .detail{
+  height: auto;
+  width:100%;
+}
+.recipe .detail li{
+  width:100%;
+  border-bottom: 1px solid #f3f3f3;
+}
+.recipe .detail .de1{
+  height: .96rem;
+}
+.recipe .detail .de2{
+  height: .82rem;
+}
+.recipe .detail .de3{
+  height: .79rem;
+}
+.recipe .detail li h3{
+  float: left;
+  font-size:.28rem;
+  color:#1b1a20;
+}
+.recipe .detail li input{
+  float: right;
+  font-size:.28rem;
+  color:#8d8d8d;
+  width:1rem;
+}
+.recipe .detail .de1 h3{
+  line-height: .96rem;
+}
+.recipe .detail .de1 input{
+  line-height: .96rem;
+}
+.recipe .detail .de2 h3{
+  line-height: .82rem;
+}
+.recipe .detail .de2 input{
+  line-height: .82rem;
+}
+.recipe .detail .de3 h3{
+  line-height: .79rem;
+}
+.recipe .detail .de3 input{
+  line-height: .79rem;
+}
+
+.tell{
+  height: .82rem;
+  width: auto;
+  margin:.19rem 0 0;
+  padding:0 .28rem 0 .26rem;
+  line-height: .82rem;
+  border-top:1px solid #f1f1f1;
+  background: white;
+}
+.tell i{
+  height:.30rem;
+  width:.32rem;
+  background-position: -0.80rem -2.28rem;
+}
+.tell span{
+  font-size:.28rem;
+  color:#1b1a20;
+}
+/*随访复诊单*/
+.state,.sup{
+  margin:.19rem 0 0;
+  background: white;
+  border-top:1px solid #f1f1f1;
+}
+.state .title,sup .title{
+  height: 1rem;
+  width:100%;
+  padding:0 .28rem 0 .26rem;
+  line-height: 1rem;
+  border-bottom:1px solid #e5e5e5;
+  box-sizing: border-box;
+}
+.state .title i,.sup .title i,.sup .main p i{
+  display: inline-block;
+  height:.27rem;
+  width:.34rem;
+  background:url(../img/hz-icon.png) no-repeat;
+  background-position: -0.81rem -0.77rem;
+  background-size:6rem 3.81rem;
+  margin-right: .12rem;
+  margin-bottom:-0.05rem;
+}
+.state .title span,.sup .title span{
+  font-size: .29rem;
+  font-weight: bold;
+  color:#1b1b1f;
+}
+.state ul{
+  height: auto;
+  width:100%;
+   padding:0 .28rem 0 .26rem;
+  border-bottom: 1px solid #e5e5e5;
+  box-sizing: border-box;
+}
+.state ul li{
+  width:100%;
+  padding:.35rem 0 .40rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+.state ul li.last{
+  border-bottom: 
+}
+.state ul li h3{
+  margin:0 0 .20rem;
+  font-size: .29rem;
+  color:#1b1b1f;
+}
+.state ul li input{
+  font-size: .28rem;
+  color:#8d8d8d;
+}
+.state input{
+  width:auto;
+  text-align:left;
+}
+input:placeholder{
+  color:#8d8d8d;
+}
+.sup .title{
+  height: .81rem;
+  padding:0 .28rem 0 .26rem;
+  box-sizing: border-box;
+}
+.sup .title i{
+  height:.32rem;
+  width:.24rem;
+  background-position: -0.80rem -1.08rem;
+}
+.sup .title span{
+  line-height: .81rem;
+}
+.sup .main{
+  height: 1.20rem;
+  width:100%;
+  padding:0 .28rem 0 .26rem;
+  box-sizing: border-box;
+}
+.sup .main p{
+  display: inline-block;
+}
+.sup .main p i{
+  float:left;
+  height:.22rem;
+  width:.24rem;
+  background-position: -0.75rem -0.52rem;
+  margin-bottom:0;
+  line-height: 1.20rem;
+}
+.sup .main  span{
+  font-size: .29rem;
+  color:#f19634;
+}
+/*问诊单*/
+.mess .title{
+  height: .52rem;
+  line-height: .52rem;
+  width:100%;
+  padding:0 .28rem 0 .26rem;
+  font-size:.23rem;
+  color:#8b8b8b;
+  background: #f5f5f5;
+  border-bottom:1px solid #f1f1f1;
+  box-sizing:border-box;
+}
+.mess .main{
+  padding:0 .28rem 0 .26rem;
+  box-sizing:border-box;
+  background: white;
+  box-sizing: border-box;
+}
+.main .year{
+  height:1.40rem;
+  width:100%;
+
+  padding:.39rem 0 .36rem;
+  box-sizing:border-box;
+}
+.main .line{
+  border-bottom:1px solid #e5e5e5;
+}
+.main .year li{
+  float: left;
+  height: 100%;
+  width: calc(100% / 4); 
+  text-align: center;
+}
+.main .year li h4{
+  line-height: 1;
+  font-size:.23rem;
+  color:#1b1b1f;
+}
+.main .year li p{
+  margin-top: .18rem;
+  font-size: .24rem;
+  color:#979797;
+}
+.main .mess-box{
+  padding:.35rem 0 .40rem;
+  box-sizing:border-box;
+}
+.main .mess-box h3{
+  line-height: 1;
+  font-size:.28rem;
+  color:#1b1b1f;
+}
+.main .mess-box .pic{
+  margin-top:.20rem;
+}
+.main .mess-box .pic img{
+  height: 1.06rem;
+  width: 1.06rem;
+  margin-right:.20rem;
+}
+.main .mess-box p{
+  margin-top: .18rem;
+  font-size: .28rem;
+  color:#8d8d8d;
+  line-height: 1;
+  letter-spacing: 0;
+}
+.main .mess-box p span{
+  margin-right: 0.15rem;
+}
+/*颗粒剂*/
+.inform{
+  height:1.65rem;
+  width:100%;
+  background:#fff;
+}
+.inform input{
+  outline:none;
+  border:none;
+  font-size:.28rem;
+  height:.45rem;
+}
+.inform input::placeholder{
+  color:#b6b5b5;
+  text-align: left;
+}
+.inform .name{
+  width:4.21rem;
+  margin-left:.28rem;
+  margin-top:.2rem;
+  margin-bottom:.16rem;
+}
+.inform .sex{
+  width:1.26rem;
+  text-align:center;
+  border-left:.02rem solid #f5f5f5;
+  border-right:.02rem solid #f5f5f5;
+  margin-top:.2rem;
+  margin-bottom:.16rem;
+  text-indent:.28rem;
+}
+.inform .age{
+  width:.85rem;
+  text-align:right;
+  text-indent:.28rem;
+}
+.inform i{
+  font-size:.28rem;
+  color:#1b1b1f;
+  padding-left:.05rem;
+  font-style:'normal'
+}
+.inform .disease{
+  width:100%;
+  height:.82rem;
+  text-indent:.28rem;
+  padding-right:.26rem;
+  box-sizing: border-box;
+  border-top:1px solid #f5f5f5;
+}
+.add{
+  height:2.42rem;
+  width:100%;
+  background:#fff;
+  margin-top:.20rem;
+}
+.add i{
+  font-size:.28rem;
+  color:#1b1b1f;
+  margin-left:.28rem;
+  padding-top:.25rem;
+  display:block;
+}
+.add button{
+  height:.64rem;
+  width:2.26rem;
+  font-size:.28rem;
+  color:#569ee3;
+  background:#fff;
+  border-radius:.08rem;
+  border:.02rem solid #569ee3;
+  outline:none;
+  margin-left:2.26rem;
+  margin-top:.75rem
+}
+.charge{
+  height:1.6rem;
+  margin-top:.2rem;
+  background:#fff;
+  border-bottom:1px solid #f5f5f5;
+}
+.charge h3{
+  font-size:.28rem;
+  margin-left:.28rem;
+  margin-right:.26rem;
+  padding-top:.35rem;
+}
+.charge input{
+  height:.44rem;
+  width:.6rem;
+  border:.02rem solid #d9d9d9;
+  line-height:.44rem;
+  border-radius:.04rem;
+  text-align:center;
+}
+.charge input::placeholder{
+  color:#569ee3;
+}
+.charge p{
+  font-size:.22rem;
+  color:#b6b5b5;
+  padding-left:.22rem;
+  margin-top:.2rem;
+}
+.doctortalk,.pay{
+  height:.82rem;
+  width:100%;
+  background:#fff;
+  line-height:.82rem;
+  border-bottom:1px solid #f5f5f5;
+  font-family: 'iconfont';
+}
+.doctortalk span,.pay span{
+  font-size:.28rem;
+  color:#1b1b1f;
+  font-weight:600;
+  padding-left:.28rem;
+  float:left;
+}
+.doctortalk b,.pay b{
+  font-size:.28rem;
+  font-style:normal;
+  padding-left:.28rem;
+  font-weight:500;
+  margin-right:.18rem;
+  float:right;
+}
+.doctortalk b{
+  color:#569ee3;
+}
+.pay b{
+  color:#8d8d8d;
+}
+.doctortalk i,.pay i{
+  height:.24rem;
+  color:#c6c6c6;
+  font-size:.28rem;
+  float:right;
+  margin-right:.26rem;
+}
+
+
+/*我的病历*/
+/*内容*/
+.content1{
+  padding:0 0.20rem;
+  font-family: "PingFangSC";
+}
+
+/*小明头像*/
+.head{
+  height:1.64rem;
+  width:100%;
+  background:white;
+  margin-top:.20rem;
+  box-sizing: border-box;
+  padding:.25rem .34rem .37rem .13rem;
+}
+.head img{
+  height:1rem;
+  width:1rem;
+  margin-right: .2rem;
+  float: left;
+}
+.name{
+  float: left;
+}
+.name h2{
+  
+}
+.name h2 p{
+  font-size:.31rem;
+  color: #3a3a3a;
+  line-height: .50rem;
+}
+.name h2 input{
+  display: none;
+  height: 100%;
+  height: .32rem;
+  margin:.05rem 0 .10rem -0.02rem;
+  outline: none;
+  border: 1px solid #8d8d8d;
+}
+/*input框内元素样式*/
+.in{
+  font-size:.31rem;
+  color: #3a3a3a;
+  line-height: .49rem;
+  font-weight: bold;
+  font-family: "PingFangSC";
+}
+.name p{
+  font-size:.28rem;
+  color:#626262;
+}
+.head i{
+  float:right;
+  display: inline-block;
+  height:.25rem;
+  width:.25rem;
+  background: url('../img/hz-icon.png') no-repeat;
+  background-position: -0.06rem -0.7rem;
+  background-size:6rem 3.81rem;
+  margin-top:.10rem;
+}
+/*所有病历*/
+.allcodes{
+  height:.84rem;
+  line-height:.84rem;
+  width:100%;
+  margin:0.10rem 0;
+  background: white;
+  padding:0 .22rem;
+  box-sizing: border-box;
+}
+.allcodes h3{
+ float: left;
+ font-size: .28rem;
+ color:#3a3a3a;
+ line-height: .84rem;
+}
+.allcodes span{
+  float: right;
+  font-size: .28rem;
+  color:#626262;
+  margin-right: .20rem;
+}
+.allcodes i{
+  float: right;
+  display: inline-block;
+  height: .10rem;
+  width:.21rem;
+  margin-top:.36rem;
+  background: url(../img/sort.png) no-repeat;
+  background-size:.21rem .11rem;
+}
+
+/*病历、随访*/
+.recodes{
+  height:4.14rem;
+  width: 100%;
+  background: white;
+  margin-bottom:.10rem;
+}
+.title{
+  height: .84rem;
+  line-height:.84rem;
+  width:100%;
+  padding:0 .22rem;
+  border-bottom:1px solid #eee;
+  box-sizing: border-box;
+}
+.title h3{
+  float: left;
+  font-size:.28rem;
+  color:#3a3a3a;
+  font-family: "PingFangSC";
+  line-height:.84rem;
+}
+.title a{
+  float: right;
+  font-size:.27rem;
+  color:#569ee3;
+  font-family: "PingFangSC";
+  text-decoration: none;
+}
+.detail{
+  box-sizing: border-box;
+  height: 3.29rem;
+  width:100%;
+  padding:.24rem .22rem 0;
+}
+.detail ul{
+  height:100%;
+  float: left;
+}
+.sub{
+  margin-right:.41rem;
+}
+.sub li,.symp li{
+  line-height:.48rem; 
+  font-size:.28rem;
+  font-family: "PingFangSC";
+}
+.symp li{
+  color:#626262;
+}
+.symp li{
+  color:#8d8d8d;
+}
+
+
+

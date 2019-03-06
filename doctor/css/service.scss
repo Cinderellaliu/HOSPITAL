@@ -1,0 +1,259 @@
+@function cal($num){
+	@return $num/40;
+}
+#top{
+	height:cal(70rem);
+	width:100%;
+	background:#1f1e22;
+	position:fixed;
+	left:0;
+	top:0;
+}
+.top-left{
+	height:100%;
+	width:cal(120rem);
+	float:left;
+}
+.top-left a{
+	font-size:cal(40rem);
+	color:#eaeaea;
+	margin-left:cal(17rem);
+	margin-top:cal(12rem);
+	font-style:normal;
+	font-weight:900;
+	font-family:'iconfont';
+	float:left;
+}
+.top-left span{
+	font-size:cal(28rem);
+	color:#eaeaea;
+	margin-top:cal(15rem);
+	float:left;
+}
+.top-middle{
+	width:cal(136rem);
+	font-size:cal(30rem);
+	color:#fff;
+	padding-top:cal(16rem);
+	margin-left:cal(207rem);
+	letter-spacing:cal(2rem);
+	float:left;
+}
+.top-right{
+	width:cal(40rem);
+	font-size:cal(38rem);
+	color:#eaeaea;
+	float:right;
+	padding-top:cal(18rem);
+	margin-right:cal(25rem);
+	font-family:'iconfont';
+	font-weight:900;
+}
+.content{
+	height:100%;
+	width:100%;
+	background:#f5f5f5;
+	margin-top:cal(70rem);
+}
+.content .space{
+	height:cal(20rem);
+	width:100%;
+	background:#f5f5f5;
+}
+.content .welcome{
+	height:cal(82rem);
+	width:100%;
+	font-size:cal(28rem);
+	color:#1b1b1f;
+	background:#ffffff;
+	line-height:cal(82rem);
+	border-bottom:1px solid #eeeeee;
+	font-family:'iconfont';
+}
+.welcome i{
+	font-size:cal(30rem);
+	color:#5ba1e4;
+	padding-left:cal(40rem);
+	font-style:normal;
+	float:left;
+}
+.welcome h3{
+	font-weight:400;
+	font-size:cal(28rem);
+	float:left;
+	padding-left:cal(12rem);
+}
+.welcome span{
+	font-size:cal(22rem);
+	color:#8d8d8d;
+	margin-left:cal(18rem);
+}
+.content .hello{
+	height:cal(354rem);
+	width:100%;
+	color:#626262;
+	background:#fff;
+}
+#text{
+	height:cal(270rem);
+	width:100%;
+	border:none;
+	outline:none;
+	font-size:cal(26rem);
+	padding-left:cal(40rem);
+	padding-right:cal(45rem);
+	box-sizing:border-box;
+	line-height:cal(40rem);
+	margin:0;
+	padding-top:cal(20rem);
+	letter-spacing:cal(2rem);
+	text-align:left;
+}
+.hello p{
+	font-size:cal(20rem);
+	color:#8d8d8d;
+	padding-right:cal(20rem);
+	float:right;
+}
+.pay{
+	height:cal(80rem);
+	width:100%;
+	font-family:'iconfont';
+	background:#fff;
+}
+.pay i{
+	font-size:cal(30rem);
+	color:#569ee3;
+	padding-left:cal(40rem);
+	margin-top:cal(30rem);
+	font-style:normal;
+	float:left;
+}
+.pay h3{
+	font-size:cal(28rem);
+	color:#1b1b1f;
+	padding-left:cal(11rem);
+	font-weight:400;
+	margin-top:cal(26rem);
+	float:left;
+}
+.set{
+	height:cal(84rem);
+	width:100%;
+	background:#fff;
+	padding:0 cal(28rem) 0;
+	box-sizing:border-box;
+}
+.set .one{
+	width:cal(190rem);
+	height:cal(30rem);
+	margin-top:cal(24rem);
+	float:left;
+}
+.set .tow,.set .three,.set .four{
+	width:cal(155rem);
+	height:cal(30rem);
+	margin-top:cal(24rem);
+	margin-left:cal(10rem);
+	float:left;
+}
+.one .dot,.tow .dot,.three .dot,.four .dot{
+	height:cal(30rem);
+	width:cal(30rem);
+	background:#91c5f5;
+	border-radius:50%;
+	text-align:center;
+	line-height:cal(30rem);
+	color:#fff;
+	font-size:cal(16rem);
+	margin-top:cal(2rem);
+	float:left;
+}
+.one span,.tow span,.three span,.four span{
+	font-size:cal(22rem);
+	color:#626262;
+	padding-left:cal(6rem);
+	float:left;
+}
+.online{
+	height:cal(112rem);
+	width:100%;
+	background:#fff;
+	letter-spacing:cal(2rem);
+	overflow:hidden;
+}
+
+.online h3{
+	font-size:cal(28rem);
+	color:#1b1b1f;
+	padding-left:cal(40rem);
+	padding-top:cal(26rem);
+	font-weight:400;
+	float:left;
+}
+.online p{
+	font-size:cal(22rem);
+	color:#ea6948;
+	padding-top:cal(10rem);
+	padding-left:cal(40rem);
+	float:left;
+}
+.online span{
+	color:#ff7e0c;
+	font-size:cal(22rem);
+	margin-right:cal(20rem);
+	float:right;
+}
+.online i{
+	color:#c6c6c6;
+	font-size:cal(22rem);
+	margin-right:cal(26rem);
+	font-style:normal;
+	font-family:'iconfont';
+	float:right;
+}
+.dont{
+	height:cal(82rem);
+	width:100%;
+	background:#fff;
+}
+.dont h3{
+	font-size:cal(28rem);
+	color:#1b1b1f;
+	text-indent:cal(42rem);
+	line-height:cal(82rem);
+	font-weight:400;
+	float:left;
+}
+.dont .dis{
+	height:cal(44rem);
+	width:cal(80rem);
+	border:cal(2rem) solid #e0e0e0;
+	margin-right:cal(20rem);
+	margin-top:cal(17rem);
+	border-radius:cal(40rem);
+	float:right;
+}
+.dont .dis img{
+	height:100%;
+	float:left;
+}
+.dont .dis:hover{
+	transition-timing-function:linear;
+	background:#91c5f5;
+}
+.dont .dis:hover img{
+	float:right;
+	transition:1s;
+}
+.explan{
+	height:cal(340rem);
+	font-size:cal(22rem);
+	padding-left:cal(40rem);
+	padding-right:cal(52rem);
+	color:#bababa;
+	line-height:cal(38rem);
+	padding-top:cal(30rem);
+	letter-spacing:cal(2rem);
+	background:#f5f5f5;
+}

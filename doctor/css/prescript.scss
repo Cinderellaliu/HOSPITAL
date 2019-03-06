@@ -1,0 +1,297 @@
+@function cal($num){
+	@return $num/40;
+}
+#top{
+	height:cal(70rem);
+	width:100%;
+	background:#1f1e22;
+	position:fixed;
+	left:0;
+	top:0;
+	z-index:10;
+}
+.top-left{
+	height:100%;
+	width:cal(120rem);
+	float:left;
+}
+.top-left a{
+	font-size:cal(40rem);
+	color:#eaeaea;
+	margin-left:cal(17rem);
+	margin-top:cal(12rem);
+	font-style:normal;
+	font-weight:900;
+	font-family:'iconfont';
+	float:left;
+}
+.top-left span{
+	font-size:cal(28rem);
+	color:#eaeaea;
+	margin-top:cal(16rem);
+	float:left;
+}
+.top-middle{
+	width:cal(136rem);
+	font-size:cal(30rem);
+	color:#fff;
+	padding-top:cal(16rem);
+	margin-left:cal(207rem);
+	letter-spacing:cal(2rem);
+	float:left;
+}
+.top-right{
+	width:cal(40rem);
+	font-size:cal(38rem);
+	color:#eaeaea;
+	float:right;
+	padding-top:cal(18rem);
+	margin-right:cal(25rem);
+	font-family:'iconfont';
+	font-weight:900;
+}
+.content{
+	height:100%;
+	width:100%;
+	background:#f5f5f5;
+	margin-top:cal(70rem);
+}
+.content .photo{
+	height:cal(308rem);
+	width:100%;
+	background:#fff;
+	overflow:hidden;
+}
+.photo .on{
+	height:cal(144rem);
+	width:cal(144rem);
+	border:cal(2rem) solid #d2d2d2;
+	margin-top:cal(26rem);
+	margin-left:cal(26rem);
+	margin-bottom:cal(26rem);
+	border-radius:cal(8rem); 
+	float:left;
+}
+.on i{
+	font-size:cal(38rem);
+	color:#b6b6b6;
+	margin-top:cal(52rem);
+	margin-left:cal(52rem);
+	font-style:normal;
+	font-family:'iconfont';
+	display:block;
+}
+.on span{
+	font-size:cal(22rem);
+	color:#b6b5b5;
+	margin-top:cal(10rem);
+	margin-left:cal(24rem);
+	display:block;
+}
+.example{
+	height:cal(144rem);
+	width:cal(144rem);
+	border:cal(2rem) solid #91c5f5;
+	margin-top:cal(26rem);
+	margin-left:cal(26rem);
+	margin-bottom:cal(26rem);
+	border-radius:cal(8rem); 
+	float:left;
+	position:relative;
+}
+.example img{
+	width:cal(144rem);
+}
+.play{
+	height:cal(38rem);
+	width:100%;
+	text-align:center;
+	line-height:cal(38rem);
+	font-size:cal(22rem);
+	background:#91c5f5;
+	color:#fff;
+	position:absolute;
+	left:0;
+	bottom:0;
+	z-index:0;
+}
+.explan{
+	height:cal(106rem);
+	margin-left:cal(26rem);
+	margin-right:cal(37rem);
+	border-top:1px solid #e5e5e5;
+	clear:both;
+	font-family:'iconfont';
+}
+.explan i{
+	font-size:cal(26rem);
+	font-style:normal;
+	color:#ef8d74;
+	margin-top:cal(23rem);
+	float:left;
+}
+.explan span{
+	font-size:cal(22rem);
+	color:#cac9c9;
+	margin-left:cal(38rem);
+	margin-top:cal(-30rem);
+	letter-spacing:cal(2rem);
+	float:left;
+}
+.help{
+	height:cal(82rem);
+	width:100%;
+	margin-top:cal(20rem);
+	background:#fff;
+	overflow:hidden;
+}
+.help h3{
+	font-size:cal(27rem);
+	color:#1b1b1f;
+	line-height:cal(82rem);
+	padding-left:cal(28rem);
+	padding-right:cal(360rem);
+	font-weight:600;
+	float:left;
+}
+.help .yes,.help .no{
+	height:cal(44rem);
+	font-size:cal(26rem);
+	text-align:center;
+	color:#569ee3;
+	margin-top:cal(18rem);
+	border-radius:cal(20rem);
+	border:cal(2rem) solid #569ee3;
+	line-height:cal(44rem);
+	float:left;
+}
+.yes{
+	width:cal(90rem);	
+}
+.no{
+	width:cal(100rem);
+	margin-left:cal(20rem);
+}
+.yes:hover,.no:hover{
+	color:white;
+	border:cal(2rem) solid #569ee3;
+	background: #569ee3;
+}
+.infor{
+	height:cal(53rem);
+	width:100%;
+	font-size:cal(22rem);
+	color:#a9a9a9;
+	text-indent:cal(30rem);
+	letter-spacing:cal(2rem);
+	line-height:cal(58rem);
+}
+.name,.sex,.age,.number{
+	height:cal(82rem);
+	width:100%;
+	background:#fff;
+	border-bottom:1px solid #f5f5f5;
+}
+.name h3,.sex h3,.age h3,.number h3{
+	font-size:cal(28rem);
+	margin-left:cal(28rem);
+	color:#1b1b1f;
+	font-weight:600;
+	line-height:cal(82rem);
+	float:left;
+}
+.name input,.age input,.number input{
+	font-size:cal(26rem);
+	color:#8d8d8d;
+	line-height:cal(82rem);
+	margin-right:cal(28rem);
+	float:right;
+	text-align:right;
+	outline:none;
+	border:none;
+}
+.sex .boy,.sex .girl{
+	height:cal(48rem);
+	width:cal(74rem);
+	font-size:cal(26rem);
+	line-height:cal(48rem);
+	margin-top:cal(18rem);
+	text-align:center;
+	border-radius:cal(20rem);
+	float:right;
+}
+.sex .boy{
+	background:#fff;
+	color:#569ee3;
+	border:1px solid #569ee3;
+	margin-right:cal(28rem);
+}
+.sex .girl{
+	background:#fff;
+	color:#569ee3;
+	margin-right:cal(20rem);
+	border:1px solid #569ee3;
+}
+.sex .girl:hover,.sex .boy:hover{
+	color:white;
+	border:1px solid #569ee3;
+	background: #569ee3;
+	box-sizing:border-box;
+}
+.space{
+	height:cal(18rem);
+	background:#f5f5f5;
+}
+.money{
+	height:cal(162rem);
+	width:100%;
+	background:#fff;
+	margin-top:cal(18rem);
+}
+.money h3{
+	font-size:cal(28rem);
+	color:#1b1b1f;
+	margin-left:cal(28rem);
+	line-height:cal(81rem);
+}
+.money h4{
+	font-size:cal(28rem);
+	color:#8b8b8b;
+	margin-left:cal(28rem);
+	line-height:cal(81rem);
+	float:left;
+}
+.money span{
+	color:#ff7e0c;
+	font-size:cal(22rem);
+	margin-right:cal(20rem);
+	line-height:cal(81rem);
+	float:right;
+}
+.money i{
+	color:#c6c6c6;
+	font-size:cal(22rem);
+	margin-right:cal(26rem);
+	line-height:cal(81rem);
+	font-style:normal;
+	font-family:'iconfont';
+	float:right;
+}
+.buttom{
+	background:#f5f5f5;
+	clear:both;
+}
+.buttom button{
+	height:cal(65rem);
+	width:cal(342rem);
+	font-size:cal(28rem);
+	color:#fff;
+	text-align:center;
+	line-height:cal(65rem);
+	border-radius:cal(9rem);
+	margin-top:cal(52rem);
+	margin-left:cal(204rem);
+	margin-bottom:cal(124rem);
+	background:#569ee3;
+	border:none;
+}

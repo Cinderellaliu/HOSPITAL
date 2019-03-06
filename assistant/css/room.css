@@ -1,0 +1,257 @@
+* {
+  letter-spacing: 0.05rem; }
+
+#top {
+  height: 1.75rem;
+  width: 100%;
+  background: #1f1e22;
+  position: fixed;
+  left: 0;
+  top: 0; }
+
+.top-left {
+  height: 100%;
+  width: 3rem;
+  float: left; }
+
+.top-left a {
+  font-size: 1rem;
+  color: #eaeaea;
+  margin-left: 0.425rem;
+  margin-top: 0.3rem;
+  font-style: normal;
+  font-weight: 900;
+  font-family: 'iconfont';
+  float: left; }
+
+.top-left span {
+  font-size: 0.7rem;
+  color: #eaeaea;
+  margin-top: 0.4rem;
+  float: left; }
+
+.top-middle {
+  width: 2.5rem;
+  font-size: 0.75rem;
+  color: #fff;
+  padding-top: 0.4rem;
+  margin-left: 5.575rem;
+  letter-spacing: 0.05rem;
+  float: left; }
+
+.top-right {
+  width: 1rem;
+  font-size: 0.95rem;
+  color: #eaeaea;
+  float: right;
+  padding-top: 0.45rem;
+  margin-right: 0.625rem;
+  font-family: 'iconfont';
+  font-weight: 900; }
+
+.content {
+  height: 100%;
+  width: 100%;
+  background: #f5f5f5;
+  padding-top: 1.75rem;
+  padding-bottom: 6.6rem; }
+
+.ming {
+  height: 2.125rem;
+  width: 100%;
+  background: #fff;
+  text-align: center;
+  font-size: 0.7rem;
+  color: #626262;
+  line-height: 2.125rem; }
+
+.time {
+  width: 100%;
+  font-size: 0.5rem;
+  padding-top: 1rem;
+  color: #bababa;
+  text-align: center; }
+
+.talkone {
+  height: auto;
+  width: 100%;
+  margin-top: 1rem;
+  float: right; }
+
+.talkone .blue {
+  padding: 0.45rem;
+  height: auto;
+  width: auto;
+  font-size: 0.7rem;
+  color: #1b1b1f;
+  float: right;
+  margin-right: 0.1rem;
+  text-align: center;
+  background: url(../img/talkone.png) no-repeat;
+  background-size: 100% 100%; }
+
+.talkone img {
+  width: 1.8rem;
+  margin-right: 0.7rem;
+  float: right; }
+
+.doctorone {
+  height: auto;
+  width: 100%;
+  margin-top: 1rem;
+  float: left; }
+
+.doctorone .white {
+  padding: 0.45rem;
+  height: auto;
+  width: auto;
+  font-size: 0.7rem;
+  color: #1b1b1f;
+  float: left;
+  margin-left: 0.1rem;
+  padding-left: 0.5rem;
+  background: url(../img/doctorone.png) no-repeat;
+  background-size: 100% 100%; }
+
+.doctorone img {
+  width: 1.8rem;
+  border-radius: 50%;
+  margin-left: 0.7rem;
+  float: left; }
+
+.talktow {
+  height: auto;
+  width: 100%;
+  margin-top: 1rem;
+  float: right; }
+
+.talktow .blue {
+  padding: 0.45rem;
+  height: auto;
+  width: auto;
+  font-size: 0.7rem;
+  color: #1b1b1f;
+  float: right;
+  margin-right: 0.1rem;
+  text-align: center;
+  background: url(../img/talktow.png) no-repeat;
+  background-size: 100% 100%; }
+
+.talktow img {
+  width: 1.8rem;
+  margin-right: 0.7rem;
+  float: right; }
+
+.doctortow {
+  height: auto;
+  width: 100%;
+  margin-top: 1rem;
+  float: left; }
+
+.doctortow h5, .doctorone h5 {
+  font-size: 0.55rem;
+  color: #8d8d8d;
+  font-weight: 400;
+  clear: both;
+  margin-left: 0.85rem;
+  padding-top: 0.15rem; }
+
+.doctortow .white {
+  padding: 0.45rem;
+  height: auto;
+  width: auto;
+  font-size: 0.7rem;
+  color: #1b1b1f;
+  float: left;
+  margin-left: 0.1rem;
+  padding-left: 0.5rem;
+  background: url(../img/doctortow.png) no-repeat;
+  background-size: 100% 100%; }
+
+.doctortow img {
+  width: 1.8rem;
+  border-radius: 50%;
+  margin-left: 0.7rem;
+  float: left; }
+
+.newtime {
+  width: 100%;
+  font-size: 0.5rem;
+  padding-top: 1rem;
+  color: #bababa;
+  float: left;
+  text-align: center; }
+
+.talkthree {
+  height: auto;
+  width: 100%;
+  margin-top: 1rem;
+  float: right; }
+
+.talkthree .blue {
+  padding: 0.45rem;
+  height: auto;
+  width: auto;
+  font-size: 0.7rem;
+  color: #1b1b1f;
+  float: right;
+  margin-right: 0.1rem;
+  text-align: center;
+  background: url(../img/talkthree.png) no-repeat;
+  background-size: 100% 100%; }
+
+.talkthree img {
+  width: 1.8rem;
+  margin-right: 0.7rem;
+  float: right; }
+
+.bottom {
+  height: 3.3rem;
+  width: 100%;
+  background: #fff;
+  font-family: 'iconfont';
+  position: fixed;
+  left: 0;
+  bottom: 0; }
+
+.bottom i {
+  font-size: 1rem;
+  color: #b8b5b5;
+  margin-left: 0.5rem;
+  margin-top: 1.15rem;
+  font-style: normal;
+  float: left; }
+
+.bottom input {
+  height: 2.05rem;
+  width: 11.95rem;
+  color: #1b1b1f;
+  background: #f5f5f5;
+  border: 1px solid #dcdcdc;
+  outline: none;
+  margin-left: 0.425rem;
+  margin-top: 0.625rem;
+  border-radius: 0.175rem;
+  font-size: 0.7rem; }
+
+.buttom a {
+  font-size: 1rem;
+  color: #b8b5b5;
+  margin-left: 0.45rem;
+  margin-top: 1.15rem;
+  float: left; }
+
+.bottom button {
+  height: 2.05rem;
+  width: 2.375rem;
+  background: #569ee3;
+  color: #fff;
+  font-size: 0.8rem;
+  line-height: 2.05rem;
+  border-radius: 0.175rem;
+  border: 1px solid #dcdcdc;
+  letter-spacing: 0.05rem;
+  padding: 0;
+  text-align: center; }
+
+/*# sourceMappingURL=room.css.map */

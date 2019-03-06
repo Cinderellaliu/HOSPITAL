@@ -1,0 +1,256 @@
+@function cal($num){
+	@return $num/40;
+}
+#top{
+	height:cal(70rem);
+	width:100%;
+	background:#1f1e22;
+	position:fixed;
+	left:0;
+	top:0;
+}
+.top-left{
+	height:100%;
+	width:cal(120rem);
+	float:left;
+}
+.top-left a{
+	font-size:cal(40rem);
+	color:#eaeaea;
+	margin-left:cal(17rem);
+	margin-top:cal(12rem);
+	font-style:normal;
+	font-weight:900;
+	font-family:'iconfont';
+	float:left;
+}
+.top-left span{
+	font-size:cal(28rem);
+	color:#eaeaea;
+	margin-top:cal(16rem);
+	float:left;
+}
+.top-middle{
+	width:cal(67rem);
+	font-size:cal(30rem);
+	color:#fff;
+	padding-top:cal(16rem);
+	margin-left:cal(239rem);
+	letter-spacing:cal(2rem);
+	float:left;
+}
+.top-right{
+	width:cal(40rem);
+	font-size:cal(38rem);
+	color:#eaeaea;
+	float:right;
+	padding-top:cal(18rem);
+	margin-right:cal(25rem);
+	font-family:'iconfont';
+	font-weight:900;
+}
+.content{
+	height:100%;
+	width:100%;
+	background:#f5f5f5;
+	margin-top:cal(70rem);
+}
+.king{
+	height:cal(145rem);
+	width:100%;
+	background:#569ee3;
+}
+.king img{
+	width:cal(84rem);
+	margin-left:cal(17rem);
+	margin-top:cal(31rem);
+	clear:both;
+	float:left;
+}
+.king span{
+	font-size:cal(28rem);
+	color:#fff;
+	padding-left:cal(18rem);
+	padding-top:cal(54rem);
+	letter-spacing:cal(2rem);
+	float:left;
+}
+.king .contact{
+	width:cal(120rem);
+	float:right;
+	font-family: 'iconfont';
+}
+.contact i{
+	font-size:cal(22rem);
+	margin-left:cal(35rem);
+	margin-right:cal(30rem);
+	margin-top:cal(44rem);
+	color:#d9e9f9;
+	font-style:normal;
+	float:left;
+}
+.contact b{
+	width:cal(120rem);
+	font-size:cal(22rem);
+	margin-right:cal(30rem);
+	color:#d9e9f9;
+	font-style:normal;
+	font-weight:400;
+	float:left;
+}
+.all{
+	height:cal(326rem);
+	width:100%;
+	background:#fff;
+	margin-top:cal(20rem);
+}
+.all ul{
+	height:cal(163rem);
+	width:100%;
+	clear: both;
+}
+.all ul	li{
+	height:100%;
+	width:25%;
+	list-style:none;
+	float: left;
+	text-align: center;
+}
+.all img{
+	width:cal(56rem);
+	margin-bottom:cal(15rem);
+	margin-top:cal(28rem);
+}
+.all p{
+	font-size:cal(26rem);
+	color:#535353;
+}
+.new{
+	height:cal(53rem);
+	width:100%;
+	font-size:cal(22rem);
+	color:#a9a9a9;
+	text-indent:cal(30rem);
+	letter-spacing:cal(2rem);
+	line-height:cal(63rem);
+}
+.talk1,.talk2{
+	height:cal(119rem);
+	width:100%;
+	background:#fff;
+	clear:both;
+}
+.talk1 img{
+	width:cal(75rem);
+	margin-top:cal(20rem);
+	margin-bottom:cal(20rem);
+	margin-left:cal(30rem);
+	float:left;
+}
+.talk2 img{
+	width:cal(75rem);
+	margin-top:cal(22rem);
+	border-radius:50%;
+	margin-left:cal(30rem);
+	float:left;
+}
+.talk2 .hua,.talk1 .ming{
+	float:left;
+}
+.talk1 h4,.talk2 h4{
+	font-size:cal(28rem);
+	color:#1b1b1f;
+	margin-top:cal(20rem);
+	margin-left:cal(25rem);
+	font-weight:400;
+	float:left;
+}
+.talk1 .sex,.talk2 .sex{
+	height:cal(30rem);
+	width:auto;
+	color:#fff;
+	border-radius:cal(2rem);
+	margin-top:cal(25rem);
+	margin-left:cal(20rem);
+	font-family:"iconfont";
+	float:left;
+}
+.talk1 .sex{
+	background:#ef9fc2;
+	line-height:cal(32rem);
+}
+.talk2 .sex{
+	background:#91c5f5;
+	line-height:cal(32rem);
+}
+.talk1 .sex i,.talk2 .sex i{
+	font-style:normal;
+	font-size:cal(18rem);
+	padding-left:cal(9rem);
+	float:left;
+}
+.talk1 .sex span,.talk2 .sex span{
+	font-size:cal(18rem);
+	padding-left:cal(4rem);
+	padding-right:cal(6rem);
+	float:left;
+}
+.talk1 .time,.talk2 .time{
+	font-size:cal(16rem);
+	color:#979797;
+	margin-right:cal(27rem);
+	padding-top:cal(22rem);
+	float:right;
+}
+.talk1 p,.talk2 p{
+	font-size:cal(22rem);
+	color:#8b8b8b;
+	margin-left:cal(25rem);
+	padding-top:cal(6rem);
+	clear:both;
+}
+.footer{
+		height:cal(100rem);
+		width: 100%;
+		background:#fff;
+		border-top:1px solid #f1f1f1;
+		box-sizing: border-box;
+		position:fixed;
+		bottom:0;
+		left:0;
+	}
+	.footer ul{
+		height:100%;
+		width:100%;
+	}
+	.footer ul li{
+		text-align:center;
+		height:100%;
+		width:calc(100% / 3);
+		float:left;
+		list-style:none;
+		font-family:'iconfont';
+	}
+	.footer img{
+		width:cal(40rem);
+		margin-top:cal(14rem);
+	}
+	.footer p{
+		font-size:cal(20rem);
+		color:#c0c0c0;
+		line-height:cal(20rem);
+		margin-top:cal(6rem);
+	}
+	.footer .b2{
+		color:#569ee3;
+	}
+	.footer i{
+		font-size:cal(40rem);
+		color:#d2d2d2;
+		font-style:normal;
+		margin-top:cal(14rem);
+		display:block;
+	}
+	.footer .a2 i{
+		color:#569ee3;
+	} 

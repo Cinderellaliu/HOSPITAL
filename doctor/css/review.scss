@@ -1,0 +1,230 @@
+@function cal($num){
+	@return $num/40;
+}
+#top{
+	height:cal(70rem);
+	width:100%;
+	background:#1f1e22;
+	position:fixed;
+	left:0;
+	top:0;
+}
+.top-left{
+	height:100%;
+	width:cal(120rem);
+	float:left;
+}
+.top-left a{
+	font-size:cal(40rem);
+	color:#eaeaea;
+	margin-left:cal(17rem);
+	margin-top:cal(12rem);
+	font-style:normal;
+	font-weight:900;
+	font-family:'iconfont';
+	float:left;
+}
+.top-left span{
+	font-size:cal(28rem);
+	color:#eaeaea;
+	margin-top:cal(16rem);
+	float:left;
+}
+.top-middle{
+	width:cal(136rem);
+	font-size:cal(30rem);
+	color:#fff;
+	padding-top:cal(16rem);
+	margin-left:cal(207rem);
+	letter-spacing:cal(2rem);
+	float:left;
+}
+.top-right{
+	width:cal(40rem);
+	font-size:cal(38rem);
+	color:#eaeaea;
+	float:right;
+	padding-top:cal(18rem);
+	margin-right:cal(25rem);
+	font-family:'iconfont';
+	font-weight:900;
+}
+.content{
+	height:100%;
+	width:100%;
+	background:#f5f5f5;
+	margin-top:cal(70rem);
+}
+.content .feedback{
+	height:cal(312rem);
+	width:100%;
+	background:#ffffff;
+}
+.feedback .havefeed{
+	height:cal(140rem);
+	width:50%;
+	border-right:1px solid #f5f5f5;
+	border-bottom:1px solid #f5f5f5;
+	box-sizing: border-box;
+	margin-top:cal(15rem);
+	float:left;
+}
+.feedback .good{
+	height:cal(140rem);
+	width:50%;
+	border-left:1px solid #f5f5f5;
+	border-bottom:1px solid #f5f5f5;
+	box-sizing: border-box;
+	margin-top:cal(15rem);
+	float:left;
+}
+.feedback .verygood{
+	height:cal(154rem);
+	width:50%;
+	border-right:1px solid #f5f5f5;
+	box-sizing: border-box;
+	float:left;
+}
+.feedback .satisfy{
+	height:cal(154rem);
+	width:50%;
+	border-left:1px solid #f5f5f5;
+	box-sizing: border-box;
+	float:left;
+}
+.good img,.verygood img,.havefeed img,.satisfy img{
+	width:cal(68rem);
+	margin-left:cal(73rem);
+	float:left;
+}
+.havefeed img,.good img{
+	margin-top:cal(29rem);
+	float:left;
+}
+.verygood img,.satisfy img{
+	margin-top:cal(44rem);
+}
+.feedback h5{
+	font-size:cal(22rem);
+	color:#343434;
+	padding-left:cal(68rem);
+	padding-top:cal(47rem);
+	float:left;
+}
+.good h5,.havefeed h5{
+	padding-top:cal(35rem);
+}
+.feedback p{
+	font-size:cal(20em);
+	color:#b1b1b1;
+	margin-left:cal(-44rem);
+	margin-top:cal(84rem);
+	float:left;
+}
+.good p,.havefeed p{
+	margin-top:cal(68rem);
+}
+.satisfy p{
+	margin-left:cal(-26rem);
+}
+.result{
+	height:cal(52rem);
+	width:100%;
+	font-size:cal(22rem);
+	line-height:cal(56rem);
+	text-indent:cal(30rem);
+	color:#8b8b8b;
+}
+.talk1,.talk2{
+	height:cal(210rem);
+	width:100%;
+	background:#fff;
+	clear:both;
+}
+.talk2{
+	margin-top:cal(20rem);
+}
+.talk1 img{
+	width:cal(75rem);
+	margin-top:cal(20rem);
+	margin-left:cal(30rem);
+	float:left;
+}
+.talk2 img{
+	margin-top:cal(22rem);
+	border-radius:50%;
+	width:cal(75rem);
+	margin-left:cal(30rem);
+	float:left;
+}
+.talk1 h4,.talk2 h4{
+	font-size:cal(28rem);
+	color:#1b1b1f;
+	margin-top:cal(20rem);
+	margin-left:cal(25rem);
+	font-weight:400;
+	float:left;
+}
+.talk1 .sex,.talk2 .sex{
+	height:cal(26rem);
+	width:auto;
+	color:#fff;
+	border-radius:cal(4rem);
+	margin-top:cal(25rem);
+	margin-left:cal(20rem);
+	font-family:"iconfont";
+	float:left;
+}
+.talk1 .sex{
+	background:#ef9fc2;
+	line-height:cal(30rem);
+}
+.talk2 .sex{
+	background:#91c5f5;
+	line-height:cal(30rem);
+}
+.talk1 .sex i,.talk2 .sex i{
+	font-style:normal;
+	font-size:cal(18rem);
+	padding-left:cal(9rem);
+	line-height:cal(26rem);
+	float:left;
+}
+.talk1 .sex span,.talk2 .sex span{
+	font-size:cal(18rem);
+	line-height:cal(26rem);
+	padding-left:cal(4rem);
+	padding-right:cal(6rem);
+	float:left;
+}
+.talk1 p,.talk2 p{
+	font-size:cal(22rem);
+	color:#555555;
+	margin-top:cal(69rem);
+	margin-left:cal(-140rem);
+	float:left;
+}
+.talk1 .time,.talk2 .time{
+	font-size:cal(16rem);
+	color:#979797;
+	padding-right:cal(27rem);
+	padding-top:cal(22rem);
+	float:right;
+}
+.talk1 .record,.talk2 .record{
+	height:cal(74rem);
+	font-size:cal(22rem);
+	color:#569fe3;
+	line-height:cal(74rem);
+	margin-left:cal(30rem);
+	margin-right:cal(27rem);
+	float:left;
+	clear:both;
+}
+.talk1 .line,.talk2 .line{
+	border-bottom:1px solid #dedede;
+	margin-left:cal(30rem);
+	margin-right:cal(27rem);
+	padding-top:cal(32rem);
+	clear:both;
+}

@@ -1,0 +1,347 @@
+@function cal($num){
+	@return $num/40;
+}
+*{
+	letter-spacing:cal(2rem);
+}
+#top{
+	height:cal(70rem);
+	width:100%;
+	background:#1f1e22;
+	position:fixed;
+	left:0;
+	top:0;
+	z-index:9999;
+}
+.top-left{
+	height:100%;
+	width:cal(120rem);
+	float:left;
+}
+.top-left a{
+	font-size:cal(40rem);
+	color:#eaeaea;
+	margin-left:cal(17rem);
+	margin-top:cal(12rem);
+	font-style:normal;
+	font-weight:900;
+	font-family:'iconfont';
+	float:left;
+}
+.top-left span{
+	font-size:cal(28rem);
+	color:#eaeaea;
+	margin-top:cal(16rem);
+	float:left;
+}
+.top-middle{
+	width:cal(67rem);
+	font-size:cal(30rem);
+	color:#fff;
+	padding-top:cal(16rem);
+	margin-left:cal(239rem);
+	letter-spacing:cal(2rem);
+	float:left;
+}
+.top-right{
+	width:cal(40rem);
+	font-size:cal(38rem);
+	color:#eaeaea;
+	float:right;
+	padding-top:cal(18rem);
+	margin-right:cal(25rem);
+	font-family:'iconfont';
+	font-weight:900;
+}
+.content{
+	height:100%;
+	width:100%;
+	background:#f5f5f5;
+	margin-top:cal(70rem);
+}
+.doctor{
+	height:cal(85rem);
+	width:100%;
+	background:#fff;
+	position: relative;
+}
+.doctor h3{
+	font-size:cal(28rem);
+	color:#3a3a3a;
+	text-indent:cal(32rem);
+	line-height:cal(85rem);
+	float:left;
+}
+.select{
+	position:relative;
+	float:right;
+	height:cal(29rem); 
+	line-height:cal(20rem);
+	position:absolute;
+	top:cal(20rem);
+	right:cal(22rem);
+	}
+.select_input{
+	height:cal(29rem); 
+	border:none;
+	outline:none;
+	font-size:cal(23rem);
+	width:auto;
+	text-indent:cal(150rem);
+}
+.select_img{
+	position: absolute;
+	top:cal(12rem);
+	right:cal(9rem);
+	height: cal(8rem);
+	width: cal(12rem);
+	vertical-align:middle;
+	cursor:pointer; 
+}
+.option{ 
+	list-style:none; 
+	display:block; 
+	width:cal(120rem); 
+	margin:0; 
+	border:1px solid #333; 
+	border-top:0; 
+	overflow:scroll;
+	overflow-x:hidden;
+	position: absolute;
+	top:cal(55rem);
+	right:cal(35rem);
+	background: white;
+}
+.option li{ 
+	font-size:cal(22rem); 
+	height:cal(38rem); 
+	line-height:cal(24rem); 
+	cursor:pointer;
+	word-break:keep-all; 
+	overflow:hidden;
+	text-align:center;
+	padding:cal(5rem);
+	box-sizing:border-box;
+}
+.option .selected{ 
+	background-color:#569fe3; 
+	color:#FFF;
+}
+.search{
+	height:cal(120rem);
+	width:100%;
+	background:#f5f5f5;
+}
+.search input{
+	height:cal(80rem);
+	width:cal(720rem);
+	font-size:cal(28rem);
+	font-weight:300;
+	margin-left:cal(14rem);
+	margin-right:cal(14rem);
+	margin-top:cal(20rem);
+	background:#fff;
+	border-radius:cal(7rem);
+	border:none;
+	outline:none;
+	text-align:center;
+	font-family:'iconfont';
+}
+.search input::placeholder{   
+	color:#b4b4b4 !important; 
+}
+.deal{
+	height:cal(120rem);
+	width:100%;
+	background:#fff;
+	line-height:cal(120rem);
+	font-family:'iconfont';
+}
+.deal .blue{
+	height:cal(72rem);
+	width:cal(72rem);
+	background:#569fe3;
+	margin-left:cal(29rem);
+	margin-top:cal(24rem);
+	text-align:center;
+	line-height:cal(72rem);
+	color:#fff;
+	font-size:cal(34rem);
+	border-radius:50%;
+	float:left;
+}
+.deal h4{
+	font-size:cal(28rem);
+	color:#1b1b1f;
+	margin-left:cal(20rem);
+	font-weight:400;
+	float:left;
+}
+.deal p{
+	font-size:cal(26rem);
+	color:#979797;
+	margin-right:cal(30rem);
+	font-weight:400;
+	float:right;
+}
+.result{
+	height:cal(52rem);
+	width:100%;
+	font-size:cal(22rem);
+	line-height:cal(56rem);
+	text-indent:cal(30rem);
+	color:#8b8b8b;
+}
+.talk1,.talk2{
+	height:cal(210rem);
+	width:100%;
+	background:#fff;
+	clear:both;
+}
+.talk2{
+	margin-top:cal(20rem);
+}
+.talk1 img{
+	width:cal(75rem);
+	margin-top:cal(20rem);
+	margin-left:cal(30rem);
+	float:left;
+}
+.talk2 img{
+	margin-top:cal(22rem);
+	border-radius:50%;
+	width:cal(75rem);
+	margin-left:cal(30rem);
+	float:left;
+}
+.talk1 h4,.talk2 h4{
+	font-size:cal(28rem);
+	color:#1b1b1f;
+	margin-top:cal(20rem);
+	margin-left:cal(25rem);
+	font-weight:400;
+	float:left;
+}
+.talk1 .sex,.talk2 .sex{
+	height:cal(26rem);
+	width:auto;
+	color:#fff;
+	border-radius:cal(4rem);
+	margin-top:cal(25rem);
+	margin-left:cal(20rem);
+	font-family:"iconfont";
+	float:left;
+}
+.talk1 .sex{
+	background:#ef9fc2;
+	line-height:cal(32rem);
+}
+.talk2 .sex{
+	background:#91c5f5;
+	line-height:cal(32rem);
+}
+.talk1 .sex i,.talk2 .sex i{
+	font-style:normal;
+	font-size:cal(18rem);
+	padding-left:cal(9rem);
+	line-height:cal(26rem);
+	float:left;
+}
+.talk1 .sex span,.talk2 .sex span{
+	font-size:cal(18rem);
+	line-height:cal(26rem);
+	padding-left:cal(4rem);
+	padding-right:cal(6rem);
+	float:left;
+}
+.talk1 p,.talk2 p{
+	font-size:cal(22rem);
+	color:#555555;
+	margin-top:cal(-34rem);
+	clear:both;
+	margin-left:cal(130rem);
+	float:left;
+}
+.talk1 .time,.talk2 .time{
+	font-size:cal(16rem);
+	color:#979797;
+	padding-right:cal(27rem);
+	padding-top:cal(22rem);
+	float:right;
+}
+.talk1 .record,.talk2 .record{
+	height:cal(74rem);
+	font-size:cal(22rem);
+	color:#569fe3;
+	line-height:cal(74rem);
+	margin-left:cal(30rem);
+	margin-right:cal(27rem);
+	float:left;
+	clear:both;
+}
+.talk1 .line,.talk2 .line{
+	border-bottom:1px solid #dedede;
+	margin-left:cal(30rem);
+	margin-right:cal(27rem);
+	padding-top:cal(32rem);
+	clear:both;
+}
+.footer{
+	height:cal(100rem);
+	width: 100%;
+	background:#fff;
+	border-top:1px solid #f1f1f1;
+	box-sizing:border-box;
+	position:fixed;
+	bottom:0;
+	left:0;
+}
+.footer ul{
+	height:100%;
+	width:100%;
+}
+.footer ul li{
+	text-align:center;
+	height:100%;
+	width:calc(100% / 4);
+	float:left;
+	list-style:none;
+}
+.footer span{
+	display: inline-block;
+	width:cal(48rem);
+	height:cal(48rem);
+	margin-top:cal(8rem);
+	background: url(../img/icon.png) no-repeat center;
+	background-size: cal(1000rem) cal(1000rem);
+	background-position: cal(-11rem) cal(-143rem);
+}
+.footer p{
+	font-size:cal(20rem);
+	color:#c0c0c0;
+	line-height:cal(20rem);
+}
+.footer .b1 span{
+	background-position: cal(-80rem) cal(-16rem);
+}
+.footer .b2 span{
+	background-position: cal(-81rem) cal(-75rem);
+}
+.footer .b4 span{
+	background-position: cal(-81rem) cal(-208rem);
+}
+.b3 p{
+	color:#569ee3;
+}
+.footer ul li:hover p{
+	color:#569ee3;
+}
+.footer .b1:hover span{
+	background-position: cal(-15rem) cal(-24rem);
+}
+.footer .b2:hover span{
+	background-position: cal(-12rem) cal(-75rem);
+}
+.footer .b4:hover span{
+	background-position: cal(-8rem) cal(-204rem);
+}
